@@ -3,7 +3,13 @@
 {% block content %}
 <link rel="stylesheet" type="text/css" href="{% static 'blog/style.css' %}" />
 <h5>Thoughts from the Peanut Gallery</h5>
+
+<ul>
+{% for blogentry in object_list %}
 <li>
-{{  blogentry.date|date:"m-d-Y"  }} <a class="button button-primary" href={{blogentry.id}}>{{blogentry.title}}</a>
+{{ blogentry.date|date:"m-d-Y" }} <a class="button button-primary" href={{ blogentry.id }}>{{ blogentry.title }}</a>
 </li>
+{% endfor %}
+</ul>
+
 {% endblock %}
