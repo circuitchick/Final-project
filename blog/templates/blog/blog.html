@@ -1,0 +1,9 @@
+
+{% load staticfiles %}
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{% static 'blog/style.css' %}" />
+<h5>Thoughts from the Peanut Gallery</h5>
+<li>
+{{  blogentry.date|date:"m-d-Y"  }} <a class="button button-primary" href={{blogentry.id}}>{{blogentry.title}}</a>
+</li>
+{% endblock %}
