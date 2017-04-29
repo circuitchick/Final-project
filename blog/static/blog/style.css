@@ -1,0 +1,21 @@
+h5{
+background-color: black;
+font-family: "sans-serif";
+font-size: 40px;
+Color: White;
+}
+p{
+background-color: white;
+font-family: "Times";
+font-size: 50px;
+Color:black;
+}
+li{
+font-family: "sans-serif";
+font-size: 40px;
+Color:white;
+}
+body
+{
+    background: white url("https://i.ytimg.com/vi/oWKJAmOIZlQ/maxresdefault.jpg") no-repeat right top;
+}
