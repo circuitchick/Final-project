@@ -1,21 +1,23 @@
-h5{
+h1{
 background-color: black;
 font-family: "sans-serif";
-font-size: 40px;
+font-size: 60px;
 Color: White;
 }
 p{
-background-color: white;
-font-family: "Times";
-font-size: 50px;
-Color:black;
+font-family:"sans-serif";
+font-size: 30px;
+Color:white;
 }
 li{
 font-family: "sans-serif";
-font-size: 40px;
+font-size: 20px;
 Color:white;
 }
 body
 {
-    background: white url("https://i.ytimg.com/vi/oWKJAmOIZlQ/maxresdefault.jpg") no-repeat right top;
+background: white url("https://i.ytimg.com/vi/oWKJAmOIZlQ/maxresdefault.jpg") no-repeat right top;
+font-family: "Times";
+font-size: 20px;
+Color:white;
 }
